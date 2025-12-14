@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+
+:root {
+  --brand-bg: #f7f4ef;
+  --brand-sand: #efe9df;
+  --brand-ink: #1f1b19;
+  --brand-contrast: #2e2a28;
+  --brand-muted: #d8d1c7;
+  --font-body-family: "Raleway", var(--font-body-family);
+  --font-heading-family: "Playfair Display", var(--font-heading-family);
+  --font-heading-weight: 600;
+  --font-body-weight: 400;
+  --buttons-radius: 0;
+  --buttons-border-width: 1px;
+}
+
+body {
+  background: var(--brand-bg);
+  color: rgba(31, 27, 25, 0.82);
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+a {
+  color: var(--brand-contrast);
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background: transparent;
+  color: var(--brand-contrast);
+  border: 1px solid var(--brand-contrast);
+  border-radius: 0;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 1.2rem 2rem;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background: var(--brand-contrast);
+  color: var(--brand-bg);
+}
+
+.card,
+.product-card,
+.collection-list__item,
+.banner,
+.page-width {
+  border-radius: 0;
+}
+
+.card,
+.collection-list__item {
+  background: var(--brand-sand);
+  border: 1px solid var(--brand-muted);
+}
+
+.footer,
+.footer__content-top {
+  background: var(--brand-contrast);
+  color: var(--brand-bg);
+}

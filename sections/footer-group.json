@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -23,7 +32,7 @@
           "type": "text",
           "settings": {
             "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "subtext": "<ul><li>Empower Women Through Modest Fashion</li><li>Fill a Gap in the Fashion Industry</li><li>Celebrate Individuality and Strength</li><li>Promote Sustainability and Conscious Living</li></ul>"
           }
         }
       },
@@ -33,9 +42,10 @@
         "footer-2"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Stay in the loop",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

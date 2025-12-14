@@ -1,0 +1,75 @@
+<div class="pdf-lookbook section color-{{ section.settings.color_scheme }}">
+  <div class="page-width">
+    <div class="pdf-lookbook__header">
+      <p class="overline">{{ section.settings.overline }}</p>
+      <h2 class="h2">{{ section.settings.heading }}</h2>
+      <p class="pdf-lookbook__subtext">{{ section.settings.subheading }}</p>
+    </div>
+    <div class="pdf-lookbook__grid">
+      <figure class="pdf-lookbook__tile">
+        <img src="{{ 'pdf-images/pdf-img-1-1.png' | asset_url }}" alt="Draped abaya detail" loading="lazy">
+      </figure>
+      <figure class="pdf-lookbook__tile">
+        <img src="{{ 'pdf-images/pdf-img-1-3.png' | asset_url }}" alt="Hijab and abaya styling" loading="lazy">
+      </figure>
+      <figure class="pdf-lookbook__tile">
+        <img src="{{ 'pdf-images/pdf-img-3-8.png' | asset_url }}" alt="Playful social content" loading="lazy">
+      </figure>
+      <figure class="pdf-lookbook__tile">
+        <img src="{{ 'pdf-images/pdf-img-4-11.png' | asset_url }}" alt="Neutral palette inspiration" loading="lazy">
+      </figure>
+      <figure class="pdf-lookbook__tile">
+        <img src="{{ 'pdf-images/pdf-img-5-4.png' | asset_url }}" alt="Event activation inspiration" loading="lazy">
+      </figure>
+      <figure class="pdf-lookbook__tile">
+        <img src="{{ 'pdf-images/pdf-img-3-3.png' | asset_url }}" alt="Mood and tone reference" loading="lazy">
+      </figure>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "PDF lookbook",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "overline",
+      "default": "Moodboard",
+      "label": "Overline"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "As envisioned in the launch guide",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "default": "Understated imagery, clean backgrounds, and social-friendly visuals pulled from the brand PDF.",
+      "label": "Subheading"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-2",
+      "options": [
+        { "value": "scheme-1", "label": "Scheme 1" },
+        { "value": "scheme-2", "label": "Scheme 2" },
+        { "value": "scheme-3", "label": "Scheme 3" },
+        { "value": "scheme-4", "label": "Scheme 4" },
+        { "value": "scheme-5", "label": "Scheme 5" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDF lookbook"
+    }
+  ]
+}
+{% endschema %}

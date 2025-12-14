@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
 
+@font-face {
+  font-family: "Basheq Vintage";
+  src: url("basheqvintagedemoversionregular-gwpme.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --brand-bg: #f7f4ef;
   --brand-sand: #efe9df;
@@ -7,7 +15,7 @@
   --brand-contrast: #2e2a28;
   --brand-muted: #d8d1c7;
   --font-body-family: "Raleway", var(--font-body-family);
-  --font-heading-family: "Playfair Display", var(--font-heading-family);
+  --font-heading-family: "Basheq Vintage", "Playfair Display", var(--font-heading-family);
   --font-heading-weight: 600;
   --font-body-weight: 400;
   --buttons-radius: 0;

@@ -87,3 +87,19 @@ input[type="button"]:hover {
   background: var(--brand-contrast);
   color: var(--brand-bg);
 }
+
+.brand-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 1.2rem;
+}
+
+.brand-strip__link {
+  font-weight: 600;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.2rem;
+}

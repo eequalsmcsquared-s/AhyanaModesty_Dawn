@@ -6,21 +6,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Ahyana Modesty",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "A curated edit of redefined modest essentials.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop the collection",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -37,7 +37,7 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
@@ -52,14 +52,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Everyday layers, elevated",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Understated imagery, clean lines, and silhouettes designed to feel effortless. Basheq monogram headlines meet Raleway for clear storytelling—pulling trending tones into a neutral core so your wardrobe stays timeless.<\/p>"
           }
         }
       },
@@ -70,14 +70,23 @@
       "settings": {
         "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "custom-liquid": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"brand-strip\"><div class=\"brand-strip__text\">Follow our launch on Instagram<\/div><a class=\"brand-strip__link\" href=\"https:\/\/www.instagram.com\/ahyana_modesty\" target=\"_blank\" rel=\"noreferrer\">@ahyana_modesty<\/a><\/div>",
+        "color_scheme": "scheme-2",
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Latest arrivals",
         "heading_size": "h2",
         "collection": "all",
         "products_to_show": 8,
@@ -151,8 +160,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Launch strategy",
+            "text": "<p>Host previews with branded touchpoints—cups, thank you notes, and photo moments to spark shareable hype.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -160,8 +169,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Teasers & ads",
+            "text": "<p>Count down with BTS snippets, then drive traffic with targeted ads across Instagram and Google.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -169,8 +178,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Early access",
+            "text": "<p>Reward subscribers with early drops or limited deals—build anticipation and grow the list.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -194,14 +203,15 @@
         "swipe_on_mobile": false,
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
+    "custom-liquid",
     "featured_collection",
     "collage",
     "video",

@@ -15,26 +15,26 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Ahyana Modesty",
+            "heading": "A curated edit of redefined modest essentials",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "A curated edit of redefined modest essentials.",
+            "text": "Understated imagery. Clean lines. Pieces that honor your faith and feel effortless every day.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the collection",
+            "button_label_1": "Shop abayas",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "Shop hijabs",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -146,8 +146,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Launch strategy",
-            "text": "<p>Host previews with branded touchpoints—cups, thank you notes, and photo moments to spark shareable hype.</p>",
+            "title": "Ecommerce imagery",
+            "text": "<p>Understated, clean backgrounds and clear product shots so fabrics and drape stay the hero.</p>",
             "link_label": "",
             "link": ""
           }
@@ -155,8 +155,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Teasers & ads",
-            "text": "<p>Count down with BTS snippets, then drive traffic with targeted ads across Instagram and Google.</p>",
+            "title": "Social storytelling",
+            "text": "<p>Fun, engaging posts that blend product with inspiration and BTS teasers to build anticipation.</p>",
             "link_label": "",
             "link": ""
           }
@@ -164,8 +164,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Early access",
-            "text": "<p>Reward subscribers with early drops or limited deals—build anticipation and grow the list.</p>",
+            "title": "Launch playbook",
+            "text": "<p>Preview events, limited drops, and early access offers—hype that feels intentional and shareable.</p>",
             "link_label": "",
             "link": ""
           }

@@ -2,7 +2,10 @@
 
 @font-face {
   font-family: "Basheq Vintage";
-  src: url("basheqvintagedemoversionregular-gwpme.otf") format("opentype");
+  src:
+    url("basheqvintagedemoversionregular-gwpme.woff2") format("woff2"),
+    url("basheqvintagedemoversionregular-gwpme.woff") format("woff"),
+    url("basheqvintagedemoversionregular-gwpme.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -6,26 +15,26 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "A curated edit of redefined modest essentials",
+            "heading": "Ahyana Modesty",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Understated imagery. Clean lines. Pieces that honor your faith and feel effortless every day.",
+            "text": "A curated edit of redefined modest essentials.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop abayas",
-            "button_link_1": "shopify://collections/abayas",
+            "button_label_1": "Shop the collection",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
-            "button_label_2": "Shop hijabs",
-            "button_link_2": "shopify://collections/hijabs",
-            "button_style_secondary_2": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -39,7 +48,7 @@
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-3",
@@ -54,14 +63,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our mission",
+            "heading": "Everyday layers, elevated",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Empowering women to honor their values and personal style with modest fashion that feels effortless, confident, and connected to culture—crafted in Christchurch and shipped across New Zealand and Australia.</p><p>Ahyana Modesty curates high-quality, affordable abayas and hijabs—lightweight modals, limited-edition prints, and matching undercaps—designed to drape beautifully, endure daily wear, and keep you feeling polished and true to yourself.</p>"
+            "text": "<p>Step into elegance with any of our super-lightweight abayas, designed for comfort and style. Our abayas are perfect for every occasion, offering a beautiful blend of modern fashion and traditional charm. When paired with a gorgeous matching hijab, it completes every look effortlessly. The vibrant colours make this set a statement piece, while the breathable fabric ensures you stay comfortable all day long</p>"
           }
         }
       },
@@ -78,87 +87,13 @@
         "padding_bottom": 12
       }
     },
-    "custom-liquid": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"brand-strip\"><div class=\"brand-strip__text\">Follow our launch on Instagram</div><a class=\"brand-strip__link\" href=\"https://www.instagram.com/ahyana_modesty/\" target=\"_blank\" rel=\"noreferrer\">@ahyana_modesty</a></div>",
-        "color_scheme": "scheme-2",
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
-    "pdf_lookbook": {
-      "type": "pdf-lookbook",
-      "settings": {
-        "overline": "Moodboard",
-        "heading": "As envisioned in the launch guide",
-        "subheading": "Understated imagery, clean backgrounds, and social-friendly visuals pulled from the brand PDF.",
-        "color_scheme": "scheme-2"
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "abayas",
-        "products_to_show": 6,
-        "title": "Featured abayas",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 3,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 16
-      }
-    },
-    "featured_collection_hijabs": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "hijabs",
-        "products_to_show": 6,
-        "title": "Featured hijabs",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 3,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 36
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "summer-collection"
+            "collection": ""
           }
         },
         "product": {
@@ -191,25 +126,6 @@
         "padding_bottom": 36
       }
     },
-    "instagram_feed": {
-      "type": "instagram-feed",
-      "settings": {
-        "overline": "Instagram",
-        "heading": "Ahyana Modesty moments",
-        "profile_url": "https://www.instagram.com/ahyana_modesty",
-        "button_label": "View Instagram",
-        "color_scheme": "scheme-2"
-      },
-      "blocks": {
-        "insta-1": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-2": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-3": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-4": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-5": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-6": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } }
-      },
-      "block_order": ["insta-1", "insta-2", "insta-3", "insta-4", "insta-5", "insta-6"]
-    },
     "video": {
       "type": "video",
       "settings": {
@@ -230,8 +146,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Ecommerce imagery",
-            "text": "<p>Understated, clean backgrounds and clear product shots so fabrics and drape stay the hero.</p>",
+            "title": "Launch strategy",
+            "text": "<p>Host previews with branded touchpoints—cups, thank you notes, and photo moments to spark shareable hype.</p>",
             "link_label": "",
             "link": ""
           }
@@ -239,8 +155,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Social storytelling",
-            "text": "<p>Fun, engaging posts that blend product with inspiration and BTS teasers to build anticipation.</p>",
+            "title": "Teasers & ads",
+            "text": "<p>Count down with BTS snippets, then drive traffic with targeted ads across Instagram and Google.</p>",
             "link_label": "",
             "link": ""
           }
@@ -248,8 +164,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Launch playbook",
-            "text": "<p>Preview events, limited drops, and early access offers—hype that feels intentional and shareable.</p>",
+            "title": "Early access",
+            "text": "<p>Reward subscribers with early drops or limited deals—build anticipation and grow the list.</p>",
             "link_label": "",
             "link": ""
           }
@@ -281,12 +197,7 @@
   "order": [
     "image_banner",
     "rich_text",
-    "custom-liquid",
-    "pdf_lookbook",
-    "featured_collection",
-    "featured_collection_hijabs",
     "collage",
-    "instagram_feed",
     "video",
     "multicolumn"
   ]

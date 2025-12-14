@@ -162,6 +162,25 @@
         "padding_bottom": 36
       }
     },
+    "instagram_feed": {
+      "type": "instagram-feed",
+      "settings": {
+        "overline": "Instagram",
+        "heading": "Ahyana Modesty moments",
+        "profile_url": "https://www.instagram.com/ahyana_modesty",
+        "button_label": "View Instagram",
+        "color_scheme": "scheme-2"
+      },
+      "blocks": {
+        "insta-1": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
+        "insta-2": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
+        "insta-3": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
+        "insta-4": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
+        "insta-5": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
+        "insta-6": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } }
+      },
+      "block_order": ["insta-1", "insta-2", "insta-3", "insta-4", "insta-5", "insta-6"]
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -236,6 +255,7 @@
     "custom-liquid",
     "featured_collection",
     "collage",
+    "instagram_feed",
     "video",
     "multicolumn"
   ]

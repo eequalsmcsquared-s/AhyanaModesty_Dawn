@@ -45,7 +45,6 @@
       ],
       "settings": {
         "image": "shopify://shop_images/6.png",
-        "image_2": "shopify://shop_images/7_7dfe47cf-1a2a-4cd7-b55a-81c5491f10e2.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -85,15 +84,6 @@
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 24,
-        "padding_bottom": 12
-      }
-    },
-    "custom-liquid": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"brand-strip\"><div class=\"brand-strip__text\">Follow our launch on Instagram</div><a class=\"brand-strip__link\" href=\"https://www.instagram.com/ahyana_modesty/\" target=\"_blank\" rel=\"noreferrer\">@ahyana_modesty</a></div>",
-        "color_scheme": "scheme-2",
-        "padding_top": 12,
         "padding_bottom": 12
       }
     },
@@ -207,7 +197,6 @@
   "order": [
     "image_banner",
     "rich_text",
-    "custom-liquid",
     "collage",
     "video",
     "multicolumn"

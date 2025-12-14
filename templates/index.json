@@ -44,6 +44,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/6.png",
+        "image_2": "shopify://shop_images/7_7dfe47cf-1a2a-4cd7-b55a-81c5491f10e2.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -62,14 +64,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our mission",
+            "heading": "Everyday layers, elevated",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Empowering women to honor their values and personal style with modest fashion that feels effortless, confident, and connected to culture—crafted in Christchurch and shipped across New Zealand and Australia.</p><p>Ahyana Modesty curates high-quality, affordable abayas and hijabs—lightweight modals, limited-edition prints, and matching undercaps—designed to drape beautifully, endure daily wear, and keep you feeling polished and true to yourself.</p>"
+            "text": "<p>Understated imagery, clean lines, and silhouettes designed to feel effortless. Basheq monogram headlines meet Raleway for clear storytelling—pulling trending tones into a neutral core so your wardrobe stays timeless.</p>"
           }
         }
       },
@@ -98,45 +100,17 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "abayas",
-        "products_to_show": 6,
-        "title": "Featured abayas",
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Latest arrivals",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "enable_desktop_slider": false,
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 16
-      }
-    },
-    "featured_collection_hijabs": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "hijabs",
-        "products_to_show": 6,
-        "title": "Featured hijabs",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 3,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
@@ -146,8 +120,8 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
+        "swipe_on_mobile": false,
+        "padding_top": 28,
         "padding_bottom": 36
       }
     },
@@ -189,25 +163,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "instagram_feed": {
-      "type": "instagram-feed",
-      "settings": {
-        "overline": "Instagram",
-        "heading": "Ahyana Modesty moments",
-        "profile_url": "https://www.instagram.com/ahyana_modesty",
-        "button_label": "View Instagram",
-        "color_scheme": "scheme-2"
-      },
-      "blocks": {
-        "insta-1": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-2": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-3": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-4": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-5": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } },
-        "insta-6": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/ahyana_modesty" } }
-      },
-      "block_order": ["insta-1", "insta-2", "insta-3", "insta-4", "insta-5", "insta-6"]
     },
     "video": {
       "type": "video",
@@ -282,9 +237,7 @@
     "rich_text",
     "custom-liquid",
     "featured_collection",
-    "featured_collection_hijabs",
     "collage",
-    "instagram_feed",
     "video",
     "multicolumn"
   ]

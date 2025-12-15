@@ -136,14 +136,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<a href=\"/collections/summer-collection\" title=\"Summer Collection\">Summer Collection</a>",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><a href=\"/collections/summer-collection\" title=\"Summer Collection\">Discover the Latest Summer Collection of Abayas for Every Occasion.</a></p>",
             "text_style": "body"
           }
         }
@@ -153,6 +153,7 @@
         "image-with-text-1"
       ],
       "settings": {
+        "image": "shopify://shop_images/Summer2.1.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",

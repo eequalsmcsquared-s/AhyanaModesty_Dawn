@@ -70,7 +70,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p>Local Shipping (Within New Zealand): may take around 2-3 Business days.</p><p>Outside out New Zealand: Shipping may take anywhere between 5-14 Business days.</p>",
+            "content": "<p>We currently deliver across <strong>New Zealand</strong> (2–5 business days) and <strong>Australia</strong> (5–10 business days).<br/>Delivery times are estimates and may vary during peak periods.</p>",
             "page": ""
           }
         },

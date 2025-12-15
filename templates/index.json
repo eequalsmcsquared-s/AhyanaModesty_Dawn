@@ -129,24 +129,6 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Launch strategy",
-            "text": "<p>Host previews with branded touchpoints—cups, thank you notes, and photo moments to spark shareable hype.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Teasers & ads",
-            "text": "<p>Count down with BTS snippets, then drive traffic with targeted ads across Instagram and Google.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column3": {
           "type": "column",
           "settings": {
@@ -155,12 +137,20 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_NdwyyC": {
+          "type": "column",
+          "settings": {
+            "title": "Return Policy",
+            "text": "<h3></h3><h3>Faulty or Incorrect Items</h3><ul><li>Your order number<br/></li><li>Clear photos of the issue<br/></li><li>Once approved, we will offer a <strong>replacement or store credit</strong>, depending on availability.</li></ul><h3>Conditions</h3><ul><li>Items must be <strong>unworn, unwashed, and in original condition</strong><br/></li><li>Original packaging must be included<br/></li><li>Sale items are <strong>final sale</strong> and not eligible for return or exchange<br/></li></ul><h3></h3>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "column3",
+        "column_NdwyyC"
       ],
       "settings": {
         "title": "",

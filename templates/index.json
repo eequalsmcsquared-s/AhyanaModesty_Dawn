@@ -150,8 +150,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Early access",
-            "text": "<p>Reward subscribers with early drops or limited deals—build anticipation and grow the list.</p>",
+            "title": "Delivery",
+            "text": "<p>We currently deliver across <strong>New Zealand</strong> (2–5 business days) and <strong>Australia</strong> (5–10 business days).<br/>Delivery times are estimates and may vary during peak periods.</p>",
             "link_label": "",
             "link": ""
           }

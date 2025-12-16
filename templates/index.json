@@ -151,7 +151,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h3>Conditions</h3><ul><li>Items must be <strong>unworn, unwashed, and in original condition</strong><br/></li><li>Original packaging must be included<br/></li><li>Sale items are <strong>final sale</strong> and not eligible for return or exchange</li></ul>",
+            "text": "<h3>FAULTY OR INCORRECT ITEMS</h3><p>If you receive an item that is <strong>faulty, damaged, or incorrect</strong>, please contact us within <strong>48 hours of delivery</strong> at <a href=\"mailto:ahyanamodesty@gmail.com\" title=\"mailto:ahyanamodesty@gmail.com\">ahyanamodesty@gmail.com</a> with:</p><ul><li>Your order number<br/></li><li>Clear photos of the issue<br/></li><li>Once approved, we will offer a <strong>replacement or store credit</strong>, depending on availability.</li></ul>",
             "link_label": "",
             "link": ""
           }

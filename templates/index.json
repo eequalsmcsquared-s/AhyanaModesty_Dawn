@@ -96,11 +96,10 @@
             "collection": "summer-collection"
           }
         },
-        "product": {
-          "type": "product",
+        "collection_XUHBJV": {
+          "type": "collection",
           "settings": {
-            "product": "lilac-abaya",
-            "second_image": false
+            "collection": "chiffon-collection"
           }
         },
         "collection-1": {
@@ -112,7 +111,7 @@
       },
       "block_order": [
         "collection-0",
-        "product",
+        "collection_XUHBJV",
         "collection-1"
       ],
       "settings": {

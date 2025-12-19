@@ -131,8 +131,8 @@
       "settings": {
         "collection": "hijabs",
         "products_to_show": 4,
-        "title": "Featured collection",
-        "heading_size": "h1",
+        "title": "Haya Modal",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",

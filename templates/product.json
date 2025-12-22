@@ -254,6 +254,12 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "17663982356b77ff61": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -262,6 +268,7 @@
     "image-with-text",
     "multicolumn",
     "related-products",
-    "17663979062ba7abd0"
+    "17663979062ba7abd0",
+    "17663982356b77ff61"
   ]
 }

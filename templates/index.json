@@ -60,13 +60,6 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Everyday layers, elevated",
-            "heading_size": "h1"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -75,7 +68,6 @@
         }
       },
       "block_order": [
-        "heading",
         "text"
       ],
       "settings": {
@@ -85,19 +77,6 @@
         "full_width": true,
         "padding_top": 24,
         "padding_bottom": 12
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "settings": {
-        "heading": "Our newest arrivals",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "featured_collection_JWhaem": {
@@ -136,7 +115,7 @@
           "type": "column",
           "settings": {
             "title": "Delivery",
-            "text": "<p>We currently deliver across <strong>New Zealand</strong> (2–5 business days) and <strong>Australia</strong> (5–10 business days).<br/>Delivery times are estimates and may vary during peak periods.</p>",
+            "text": "<p>We currently deliver across <strong>New Zealand</strong> (2–5 business days) and <strong>Australia</strong> (5–14business days).<br/>Delivery times are estimates and may vary during peak periods.</p>",
             "link_label": "",
             "link": ""
           }
@@ -186,7 +165,6 @@
   "order": [
     "image_banner",
     "rich_text",
-    "collage",
     "featured_collection_JWhaem",
     "multicolumn"
   ]

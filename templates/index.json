@@ -44,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image_2": "shopify://shop_images/0601C5FA-1873-4221-A5AE-F03B0D5B20A2.jpg",
+        "image_2": "shopify://shop_images/4FF4372B-C602-4BE4-AF91-7D8D6233C809.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "fixed",
@@ -96,12 +96,6 @@
             "collection": "summer-collection"
           }
         },
-        "collection_XUHBJV": {
-          "type": "collection",
-          "settings": {
-            "collection": "chiffon-collection"
-          }
-        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -111,7 +105,6 @@
       },
       "block_order": [
         "collection-0",
-        "collection_XUHBJV",
         "collection-1"
       ],
       "settings": {

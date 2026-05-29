@@ -89,24 +89,6 @@
     },
     "collage": {
       "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "summer-collection"
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "velvet-collection"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1"
-      ],
       "settings": {
         "heading": "Our newest arrivals",
         "heading_size": "h2",
